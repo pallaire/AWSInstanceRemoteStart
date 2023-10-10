@@ -1,0 +1,31 @@
+Screen {
+}
+
+#vpnstatus {
+    margin: 2;
+    width: 100%;
+    padding: 5;
+    content-align: center middle;
+}
+
+.statusstopped {
+    background: red;
+}
+
+.statusrunning {
+    background: green;
+}
+
+.statuswaiting {
+    background: yellow;
+}
+
+#start {
+    margin: 2 2 0 2;
+    width: 100%;
+}
+
+#stop {
+    margin: 0 2 2 2;
+    width: 100%;
+}
